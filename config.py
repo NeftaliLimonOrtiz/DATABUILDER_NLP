@@ -1,7 +1,7 @@
 import re
 
-INPUT_DIR = "/"
-OUTPUT_DIR = "/"
+INPUT_DIR = "input"
+OUTPUT_DIR = "output"
 
 EMAIL_PAT = re.compile(r"\b[\w._%+-]+@[\w.-]+\.[a-zA-Z]{2,}\b")
 PHONE_PAT = re.compile(r"\b(?:\d{2}[.\s-]?){4}\d{2}\b")
